@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC - Sistema Organizador de Componentes Electrónicos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilo_plantilla_adaptativa.css">
+    <link rel="icon" type="image/png" href="img/EC.png">
+    <style>
+        /* Button Styles */
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .info-button {
+            padding: 0;
+            border: 1px solid #cfcfcf;
+            text-align: left;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .info-button-content {
+            padding: 15px;
+            color: rgb(0, 0, 0);
+        }
+        .info-button h3 {
+            margin-top: 0;
+            color: rgb(52, 30, 248);
+            font-size: 18px;
+        }
+        .info-button p {
+            margin-bottom: 15px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .nested-button {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #005fa3;
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .nested-button:hover {
+            background-color: #004d84;
+        }
+        
+        /* Content Sections */
+        .content-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+        }
+        .content-section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #0077cc;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        /* Evidence Section */
+        .evidence-section {
+            margin-top: 40px;
+        }
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .evidence-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            background-color: white;
+        }
+        .evidence-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .evidence-item h4 {
+            margin-top: 0;
+            color: #0077cc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="img/EmilioColor.jpg" alt="Logo EmilioColor" class="header-logo">
+        <div class="header-options">
+            <a href="https://grupoemiliocolor.github.io/mx/">Inicio</a>
+        </div>
+    </header>
+    
+    <!-- Subheader -->
+    <div class="subheader">
+        <h1><i class="#"></i> Proyecto "Sistema Organizador para Componentes Electrónicos"</h1>
+    </div>
+    
+    <!-- Main Content -->
+    <main class="main-container">
+        <div class="content-box">
+            <!-- Resumen Section -->
+            <div class="content-section">
+                <h2>Resumen</h2>
+                <p>Nuestro proyecto, titulado "Sistema Organizador de Componentes Electrónicos", consiste en el diseño e implementación de un sistema automatizado enfocado en la organización y clasificación de componentes electrónicos. La propuesta responde a la necesidad de optimizar estos procesos, que tradicionalmente se realizan de manera manual, lo cual conlleva demoras, errores recurrentes y una baja eficiencia.</p>
+                <p>Este sistema emplea tecnologías avanzadas de automatización, como sensores de clasificación, sistemas de visión artificial y un brazo robótico, para identificar, organizar y almacenar componentes electrónicos de manera precisa y rápida. Al automatizar estas tareas, se logra reducir significativamente los tiempos de ejecución, aumentar la exactitud en la clasificación y disminuir los costos operativos.</p>
+                <p>Además, este proyecto tiene como objetivo hacer que la tecnología sea accesible y escalable para pequeñas, medianas y grandes empresas, democratizando las herramientas de automatización y promoviendo la competitividad del sector. En conjunto, la iniciativa no solo busca optimizar la gestión de componentes electrónicos, sino también fomentar la sostenibilidad y adaptabilidad en un mercado tecnológico en constante evolución.</p>
+            </div>
+            
+            <!-- Justificación Section -->
+            <div class="content-section">
+                <h2>Justificación</h2>
+                <p>La implementación de un sistema automatizado para la organización y clasificación de componentes electrónicos se justifica por varias razones clave que abordan problemas comunes en la industria tecnológica actual.</p>
+                <p>En los métodos manuales tradicionales, la organización de componentes electrónicos no solo es un proceso lento, sino también altamente susceptible a errores humanos, como la clasificación incorrecta o la pérdida de piezas pequeñas y delicadas. Estos errores impactan negativamente en la productividad y pueden generar pérdidas económicas significativas, además de retrasos en la cadena de suministro y los ciclos de manufactura.</p>
+                <p>Por otro lado, la automatización permite superar estas limitaciones al garantizar una precisión constante y una operación mucho más ágil. Esto no solo mejora la calidad de los resultados, sino que también reduce los costos asociados al tiempo de trabajo y al manejo ineficiente de recursos. La integración de tecnologías avanzadas, como sensores, sistemas de visión artificial y robots, no solo facilita este proceso, sino que también minimiza los riesgos laborales, ya que los operadores humanos no están expuestos a actividades repetitivas o condiciones peligrosas.</p>
+                <p>Además, este proyecto responde a la necesidad de las empresas de adaptarse a un mercado competitivo, donde la eficiencia y la optimización de recursos son factores determinantes para el éxito. Al ofrecer una solución tecnológica accesible y escalable, se permite que empresas de diferentes tamaños, incluidas las pequeñas y medianas, puedan adoptar sistemas automatizados sin incurrir en inversiones prohibitivas. Esto no solo promueve la inclusión tecnológica, sino que también fomenta la sostenibilidad al optimizar el uso de recursos y reducir el desperdicio.</p>
+                <p>En última instancia, nuestro proyecto no solo representa un avance tecnológico, sino también un aporte significativo al desarrollo de la industria, haciendo más competitiva y sostenible la gestión de componentes electrónicos en un entorno cada vez más automatizado y exigente.</p>
+            </div>
+            
+            <!-- Objetivos Section -->
+            <div class="content-section">
+                <h2>Objetivos</h2>
+                <ol>
+                    <li><strong>Disminuir los tiempos de los procesos de organización y clasificación</strong><br>
+                    Uno de los principales objetivos del proyecto es reducir significativamente el tiempo invertido en organizar y clasificar componentes electrónicos. Esto se logra mediante un sistema automatizado que opera de forma continua y rápida, eliminando retrasos asociados a métodos manuales. Esperamos que este ahorro de tiempo permita a las empresas destinar recursos a otras áreas críticas, aumentando su productividad general.</li>
+                    
+                    <li><strong>Mejorar la eficiencia y la precisión de los procesos</strong><br>
+                    Al emplear tecnologías como sensores de alta precisión y sistemas de visión artificial, buscamos minimizar los errores comunes en la clasificación manual, como confusiones o pérdidas de componentes. Con un sistema confiable y exacto, las empresas podrán optimizar sus procesos de manufactura y asegurar una gestión uniforme y de alta calidad. Este nivel de precisión también permitirá un manejo más eficiente de inventarios, reduciendo el desperdicio y mejorando la trazabilidad de los componentes.</li>
+                    
+                    <li><strong>Reducir los costos operativos</strong><br>
+                    Nuestro proyecto está diseñado para eliminar la necesidad de personal dedicado exclusivamente a tareas de organización y clasificación de componentes electrónicos. Con un sistema automatizado, las empresas pueden reducir los costos relacionados con la contratación y capacitación de personal, así como los gastos asociados a errores humanos. Este ahorro económico hará que el sistema sea una inversión rentable y sostenible a largo plazo.</li>
+                    
+                    <li><strong>Promover la accesibilidad tecnológica</strong><br>
+                    Otro objetivo clave es desarrollar una solución que sea escalable y adaptable, permitiendo su implementación en empresas de diferentes tamaños, desde pequeñas start ups hasta grandes corporaciones. Esperamos que este proyecto fomente la democratización de la automatización, haciendo que las tecnologías avanzadas sean más accesibles para sectores que tradicionalmente han carecido de recursos para adoptarlas.</li>
+                    
+                    <li><strong>Aumentar la sostenibilidad de los procesos</strong><br>
+                    La implementación de este sistema no solo busca optimizar los recursos financieros y humanos, sino también contribuir a un enfoque más sostenible en la industria. Al reducir el uso innecesario de recursos y minimizar los errores, esperamos que las empresas puedan operar de manera más respetuosa con el medio ambiente, disminuyendo su huella ecológica.</li>
+                    
+                    <li><strong>Facilitar la integración con otros sistemas de manufactura automatizada</strong><br>
+                    Nuestro sistema está diseñado para ser compatible con otras soluciones de automatización, permitiendo su integración en líneas de producción más amplias. Con esto, buscamos que las empresas puedan adoptar un enfoque holístico en sus operaciones, impulsando una manufactura más eficiente e interconectada.</li>
+                </ol>
+                <p>En conjunto, esperamos que este proyecto no solo resuelva problemas operativos específicos, sino que también aporte un valor estratégico y tecnológico significativo a la industria.</p>
+            </div>
+            
+            <!-- Estado del arte Section -->
+            <div class="content-section">
+                <h2>Estado del arte</h2>
+                <div class="video-container">
+                    <div class="video-item">
+                        <strong>Clasificador de residuos Automatizado</strong><br>
+                        <a href="https://youtu.be/JkNI-2Ma8FY?si=LBSs2Rftveiv-j40" target="_blank">https://youtu.be/JkNI-2Ma8FY?si=LBSs2Rftveiv-j40</a>
+                    </div>
+                    <div class="video-item">
+                        <strong>Sensor de colores(1)</strong><br>
+                        <a href="https://youtu.be/7S2C_xptemw?si=5lU2df12mTKk2p6H" target="_blank">https://youtu.be/7S2C_xptemw?si=5lU2df12mTKk2p6H</a>
+                    </div>
+                    <div class="video-item">
+                        <strong>Clasificación automática</strong><br>
+                        <a href="https://www.logisticaprofesional.com/texto-diario/mostrar/2973674/clasificacion-automatica-grandes-beneficios-sector" target="_blank">https://www.logisticaprofesional.com/texto-diario/mostrar/2973674/clasificacion-automatica-grandes-beneficios-sector</a>
+                    </div>
+                    <div class="video-item">
+                        <strong>Sistema Automático de Clasificación de Basura</strong><br>
+                        <a href="https://youtu.be/7YuSSWla9WI?si=6zxXgiPRsdsXlG-1" target="_blank">https://youtu.be/7YuSSWla9WI?si=6zxXgiPRsdsXlG-1</a>
+                    </div>
+                    <div class="video-item">
+                        <strong>Clasificación automática de frutas y hortalizas con visión artificial</strong><br>
+                        <a href="https://youtu.be/Lb4M8AK3_00?si=jvf-gWJWufOeFJbM" target="_blank">https://youtu.be/Lb4M8AK3_00?si=jvf-gWJWufOeFJbM</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Evidence Section -->
+            <div class="content-section evidence-section">
+                <h2>Evidencias del Proyecto</h2>
+                <div class="evidence-grid">
+                    <div class="evidence-item">
+                        <h4>DOC1 DIVISIÓN DE MÓDULOS</h4>
+                        <p>Información teórica sobre el funcionamiento de los distintos módulos que integran el proyecto.</p>
+                        <a href="https://docs.google.com/document/d/1qTNJCOwIZHFBpVXUYVGDDf8pZ4pw5TQOyV8QJvwBcyg/edit?usp=sharing" class="nested-button">Enlace</a>
+                    </div>
+                    <div class="evidence-item">
+                        <h4>Sensores en Acción</h4>
+                        <p>Pruebas de funcionamiento de los sensores de identificación de componentes.</p>
+                        <a href="#" class="nested-button">Ampliar</a>
+                    </div>
+                    <div class="evidence-item">
+                        <h4>Integración Robótica</h4>
+                        <p>Brazo robótico en fase de pruebas para manipulación de componentes.</p>
+                        <a href="#" class="nested-button">Ampliar</a>
+                    </div>
+                    <div class="evidence-item">
+                        <h4>Interfaz de Control</h4>
+                        <p>Sistema de monitoreo y control del proceso de clasificación.</p>
+                        <a href="#" class="nested-button">Ampliar</a>
+                    </div>
+                    <div class="evidence-item">
+                        <h4>Pruebas de Eficiencia</h4>
+                        <p>Comparación de tiempos entre método manual y sistema automatizado.</p>
+                        <a href="#" class="nested-button">Ampliar</a>
+                    </div>
+                    <div class="evidence-item">
+                        <h4>Equipo de Desarrollo</h4>
+                        <p>Equipo trabajando en la implementación del sistema organizador.</p>
+                        <a href="#" class="nested-button">Ampliar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="https://grupoemiliocolor.github.io/mx/" target="_blank">
+                    <img src="img/EC.png" alt="EmilioColor Logo" class="footer-logo">
+                </a>
+                <p class="footer-description">
+                    Soluciones integrales en papelería, desarrollo web y capacitación para mentes que transformen el mundo.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Recursos</h4>
+                    <a href="https://grupoemiliocolor.github.io/mx/blog.html">Blog</a>
+                    <a href="https://grupoemiliocolor.github.io/mx/documentacion.html">Documentación</a>
+                    <a href="https://grupoemiliocolor.github.io/mx/herramientas.html">Herramientas</a>
+                    <a href="https://grupoemiliocolor.github.io/mx/educativo/inicio.html">Educativo</a>
+                </div>
+                
+                <div class="link-group">
+                    <h4>Empresa</h4>
+                    <a href="https://grupoemiliocolor.github.io/mx/index.html">Acerca de</a>
+                    <a href="https://grupoemiliocolor.github.io/mx/index.html">Contacto</a>
+                    <a href="https://grupoemiliocolor.github.io/mx/terminos_y_condiciones.html">Términos</a>
+                    <a href="https://grupoemiliocolor.github.io/mx/privacidad.html">Privacidad</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> EmilioColor®. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
