@@ -199,6 +199,13 @@
         .social-icon-footer:hover {
             color: #212529;
         }
+        .nested-button-1 {
+    all: unset;
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
         
         /* Responsive adjustments */
         @media (max-width: 768px) {
@@ -235,19 +242,19 @@
     </style>
 </head>
 <body>
-    <!-- Header matching 33KB version -->
-    <header class="bg-light">
+    <!-- Header -->
+    <header>
         <div class="container">
             <!-- Desktop Version -->
             <div class="header-desktop">
                 <div class="header-logo-container">
                     <img src="img/EmilioColor.jpg" alt="EmilioColor® Logo" class="header-logo">
                 </div>
-                <div>
-                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <div class="social-icons-container">
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             
@@ -257,10 +264,10 @@
                     <img src="img/EmilioColor.jpg" alt="EmilioColor® Logo" class="header-logo">
                 </div>
                 <div class="social-icons-container">
-                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
@@ -268,84 +275,192 @@
 
     <!-- Subheader -->
     <div class="subheader">
-        <h1><i class="#"></i> Proyecto "Sistema Organizador para Componentes Electrónicos"</h1>
+        <h1><i class="fas fa-robot"></i> Sistema Organizador de Componentes Electrónicos</h1>
     </div>
     
     <!-- Main Content -->
     <main class="main-container">
         <div class="content-box">
-            <!-- Resumen Section -->
-            <div class="content-section">
-                <h2>Resumen</h2>
-                <p>Nuestro proyecto, titulado "Sistema Organizador de Componentes Electrónicos", consiste en el diseño e implementación de un sistema automatizado enfocado en la organización y clasificación de componentes electrónicos. La propuesta responde a la necesidad de optimizar estos procesos, que tradicionalmente se realizan de manera manual, lo cual conlleva demoras, errores recurrentes y una baja eficiencia.</p>
-                <p>Este sistema emplea tecnologías avanzadas de automatización, como sensores de clasificación, sistemas de visión artificial y un brazo robótico, para identificar, organizar y almacenar componentes electrónicos de manera precisa y rápida. Al automatizar estas tareas, se logra reducir significativamente los tiempos de ejecución, aumentar la exactitud en la clasificación y disminuir los costos operativos.</p>
-                <p>Además, este proyecto tiene como objetivo hacer que la tecnología sea accesible y escalable para pequeñas, medianas y grandes empresas, democratizando las herramientas de automatización y promoviendo la competitividad del sector. En conjunto, la iniciativa no solo busca optimizar la gestión de componentes electrónicos, sino también fomentar la sostenibilidad y adaptabilidad en un mercado tecnológico en constante evolución.</p>
+            <!-- Título del proyecto Section -->
+            <div class="content-section animated-section">
+                <h2>Título del proyecto</h2>
+                <p><strong>Sistema Organizador de Componentes Electrónicos</strong></p>
+            </div>
+            
+            <!-- Tema Section -->
+            <div class="content-section animated-section" style="animation-delay: 0.1s;">
+                <h2>Tema</h2>
+                <p>Automatización en la organización y clasificación de componentes electrónicos con fines didácticos en robótica y electrónica educativa.</p>
+            </div>
+            
+            <!-- Delimitación del Tema Section -->
+            <div class="content-section animated-section" style="animation-delay: 0.2s;">
+                <h2>Delimitación del Tema</h2>
+                <p>El proyecto se enfoca en la implementación de un sistema automatizado e interactivo de clasificación de componentes electrónicos pequeños (resistores, capacitores, transistores), con fines educativos en niveles básico y medio superior, principalmente en escuelas públicas, talleres comunitarios y clubes de ciencia.</p>
+            </div>
+            
+            <!-- Descripción General Section -->
+            <div class="content-section animated-section" style="animation-delay: 0.3s;">
+                <h2>Descripción General</h2>
+                <p>El "Sistema Organizador de Componentes Electrónicos" es una propuesta innovadora diseñada para enseñar robótica, electrónica y automatización a estudiantes de nivel básico y medio superior, mediante una herramienta tecnológica real y funcional.</p>
+                <p>Este sistema automatizado utiliza sensores de clasificación, visión artificial y un brazo robótico programable para identificar, organizar y almacenar componentes electrónicos de manera precisa. Sin embargo, su principal propósito en el entorno educativo no es solo técnico, sino pedagógico: transformar estos procesos en una experiencia interactiva, accesible y motivadora que permita a los alumnos aprender haciendo.</p>
+                <p>El proyecto se complementa con una plataforma digital que integra cursos interactivos, simuladores, retos y materiales didácticos alineados con el sistema físico, permitiendo un aprendizaje progresivo y guiado. Gracias al respaldo de Emiliocolor México, el sistema se presenta como una solución accesible, escalable y adaptable a diferentes entornos escolares, desde aulas formales hasta talleres comunitarios o clubes de ciencia.</p>
+                <p>Este enfoque integral busca despertar el interés por las áreas STEM, desarrollar habilidades tecnológicas desde edades tempranas, y democratizar el acceso a herramientas avanzadas de automatización, especialmente en contextos con recursos limitados.</p>
+            </div>
+            
+            <!-- Reto Section -->
+            <div class="content-section animated-section" style="animation-delay: 0.4s;">
+                <h2>Reto</h2>
+                <p>El reto de nuestro proyecto es transformar un proceso técnico-industrial como la organización de componentes electrónicos en una herramienta educativa accesible, didáctica y práctica que facilite el aprendizaje de la robótica, electrónica y automatización, especialmente en contextos escolares con recursos limitados. Además, buscamos integrar tecnología avanzada de forma segura, motivadora y contextualizada, promoviendo la equidad educativa y el desarrollo de habilidades STEM desde edades tempranas.</p>
+            </div>
+            
+            <!-- Hipótesis Section -->
+            <div class="content-section animated-section" style="animation-delay: 0.5s;">
+                <h2>Hipótesis</h2>
+                <p>Si se implementa un sistema automatizado de clasificación de componentes electrónicos diseñado con fines educativos e integrado a una plataforma digital con cursos interactivos, entonces se potenciará el aprendizaje práctico de robótica y electrónica en estudiantes de nivel básico y medio superior, mejorando su comprensión tecnológica, habilidades STEM y motivación hacia la ciencia, especialmente en contextos con acceso limitado a recursos tecnológicos.</p>
             </div>
             
             <!-- Justificación Section -->
-            <div class="content-section">
+            <div class="content-section animated-section" style="animation-delay: 0.6s;">
                 <h2>Justificación</h2>
-                <p>La implementación de un sistema automatizado para la organización y clasificación de componentes electrónicos se justifica por varias razones clave que abordan problemas comunes en la industria tecnológica actual.</p>
-                <p>En los métodos manuales tradicionales, la organización de componentes electrónicos no solo es un proceso lento, sino también altamente susceptible a errores humanos, como la clasificación incorrecta o la pérdida de piezas pequeñas y delicadas. Estos errores impactan negativamente en la productividad y pueden generar pérdidas económicas significativas, además de retrasos en la cadena de suministro y los ciclos de manufactura.</p>
-                <p>Por otro lado, la automatización permite superar estas limitaciones al garantizar una precisión constante y una operación mucho más ágil. Esto no solo mejora la calidad de los resultados, sino que también reduce los costos asociados al tiempo de trabajo y al manejo ineficiente de recursos. La integración de tecnologías avanzadas, como sensores, sistemas de visión artificial y robots, no solo facilita este proceso, sino que también minimiza los riesgos laborales, ya que los operadores humanos no están expuestos a actividades repetitivas o condiciones peligrosas.</p>
-                <p>Además, este proyecto responde a la necesidad de las empresas de adaptarse a un mercado competitivo, donde la eficiencia y la optimización de recursos son factores determinantes para el éxito. Al ofrecer una solución tecnológica accesible y escalable, se permite que empresas de diferentes tamaños, incluidas las pequeñas y medianas, puedan adoptar sistemas automatizados sin incurrir en inversiones prohibitivas. Esto no solo promueve la inclusión tecnológica, sino que también fomenta la sostenibilidad al optimizar el uso de recursos y reducir el desperdicio.</p>
-                <p>En última instancia, nuestro proyecto no solo representa un avance tecnológico, sino también un aporte significativo al desarrollo de la industria, haciendo más competitiva y sostenible la gestión de componentes electrónicos en un entorno cada vez más automatizado y exigente.</p>
+                <p>La educación tecnológica enfrenta hoy el reto de adaptarse a un mundo donde la automatización, la robótica y la programación son competencias fundamentales. Sin embargo, muchas escuelas carecen de herramientas accesibles y contextualizadas que permitan a los estudiantes aprender de manera práctica y significativa.</p>
+                <p>El método tradicional de enseñanza de la electrónica y robótica suele ser teórico, limitado y descontextualizado. Esto puede desmotivar a los alumnos y reducir el interés por carreras STEM (ciencia, tecnología, ingeniería y matemáticas). Nuestro sistema ofrece una solución concreta a este problema: transformar la organización y clasificación de componentes electrónicos en una experiencia educativa divertida, interactiva y formativa.</p>
+                <p>Además, al incluir un entorno de desarrollo intuitivo y una serie de cursos digitales escalonados por niveles, los estudiantes podrán avanzar desde los conceptos básicos hasta el desarrollo de automatismos reales, fomentando así una comunidad de aprendizaje tecnológico desde edades tempranas.</p>
+                <p>La propuesta busca, en última instancia, democratizar el acceso a la robótica educativa, generar vocaciones científicas y cerrar la brecha digital en entornos escolares, comunitarios y rurales.</p>
             </div>
             
-            <!-- Objetivos Section -->
-            <div class="content-section">
-                <h2>Objetivos</h2>
+            <!-- Propósito Section -->
+            <div class="content-section animated-section" style="animation-delay: 0.7s;">
+                <h2>Propósito</h2>
+                <p>Optimizar el aprendizaje de la robótica y la electrónica mediante la automatización del proceso de clasificación de componentes, con un enfoque educativo que fomente la participación, el pensamiento crítico y la inclusión tecnológica en entornos escolares de nivel básico y medio superior.</p>
+            </div>
+            
+            <!-- Impacto Social Section -->
+            <div class="content-section animated-section" style="animation-delay: 0.8s;">
+                <h2>Impacto Social</h2>
+                <p>El impacto social de este proyecto es significativo: facilita el acceso a herramientas tecnológicas en contextos educativos marginados, promueve la enseñanza práctica de la robótica y la electrónica, y despierta vocaciones científicas desde edades tempranas. Contribuye a formar una nueva generación con habilidades STEM, reduce la brecha tecnológica, mejora la motivación estudiantil, y refuerza la equidad educativa. Además, brinda una solución replicable, sostenible y adaptable a diferentes entornos, generando oportunidades de aprendizaje transformadoras.</p>
+            </div>
+            
+            <!-- Diagnóstico Section -->
+            <div class="content-section animated-section" style="animation-delay: 0.9s;">
+                <h2>Diagnóstico</h2>
+                <p>En muchos contextos educativos, el aprendizaje de robótica, electrónica y automatización está limitado por la falta de recursos, metodologías dinámicas y acceso a tecnología real. Esta carencia genera desinterés, baja comprensión de los conceptos y desigualdad en el desarrollo de habilidades STEM. Además, los docentes suelen carecer de herramientas prácticas para enseñar de forma efectiva. Nuestro diagnóstico evidencia la necesidad de un sistema automatizado y pedagógico que facilite un entorno interactivo, seguro y accesible para la enseñanza de estas disciplinas.</p>
+            </div>
+            
+            <!-- Planteamiento Section -->
+            <div class="content-section animated-section" style="animation-delay: 1.0s;">
+                <h2>Planteamiento</h2>
+                <p>En los niveles educativos básico y medio superior, existe una brecha importante entre los contenidos curriculares y los medios disponibles para enseñar robótica, electrónica y automatización de manera práctica y significativa. Los sistemas actuales son costosos, teóricos o poco accesibles, lo que impide que estudiantes y docentes desarrollen competencias tecnológicas reales. Ante este panorama, surge la necesidad de implementar un sistema organizador de componentes electrónicos automatizado, que, además de cumplir una función técnica, sea una herramienta educativa interactiva capaz de transformar el proceso de enseñanza-aprendizaje en el aula.</p>
+            </div>
+            
+            <!-- Objetivos generales y específicos Section -->
+            <div class="content-section animated-section" style="animation-delay: 1.1s;">
+                <h2>Objetivos generales y específicos</h2>
+                <h4>Objetivos Generales</h4>
                 <ol>
-                    <li><strong>Disminuir los tiempos de los procesos de organización y clasificación</strong><br>
-                    Uno de los principales objetivos del proyecto es reducir significativamente el tiempo invertido en organizar y clasificar componentes electrónicos. Esto se logra mediante un sistema automatizado que opera de forma continua y rápida, eliminando retrasos asociados a métodos manuales. Esperamos que este ahorro de tiempo permita a las empresas destinar recursos a otras áreas críticas, aumentando su productividad general.</li>
-                    
-                    <li><strong>Mejorar la eficiencia y la precisión de los procesos</strong><br>
-                    Al emplear tecnologías como sensores de alta precisión y sistemas de visión artificial, buscamos minimizar los errores comunes en la clasificación manual, como confusiones o pérdidas de componentes. Con un sistema confiable y exacto, las empresas podrán optimizar sus procesos de manufactura y asegurar una gestión uniforme y de alta calidad. Este nivel de precisión también permitirá un manejo más eficiente de inventarios, reduciendo el desperdicio y mejorando la trazabilidad de los componentes.</li>
-                    
-                    <li><strong>Reducir los costos operativos</strong><br>
-                    Nuestro proyecto está diseñado para eliminar la necesidad de personal dedicado exclusivamente a tareas de organización y clasificación de componentes electrónicos. Con un sistema automatizado, las empresas pueden reducir los costos relacionados con la contratación y capacitación de personal, así como los gastos asociados a errores humanos. Este ahorro económico hará que el sistema sea una inversión rentable y sostenible a largo plazo.</li>
-                    
-                    <li><strong>Promover la accesibilidad tecnológica</strong><br>
-                    Otro objetivo clave es desarrollar una solución que sea escalable y adaptable, permitiendo su implementación en empresas de diferentes tamaños, desde pequeñas start ups hasta grandes corporaciones. Esperamos que este proyecto fomente la democratización de la automatización, haciendo que las tecnologías avanzadas sean más accesibles para sectores que tradicionalmente han carecido de recursos para adoptarlas.</li>
-                    
-                    <li><strong>Aumentar la sostenibilidad de los procesos</strong><br>
-                    La implementación de este sistema no solo busca optimizar los recursos financieros y humanos, sino también contribuir a un enfoque más sostenible en la industria. Al reducir el uso innecesario de recursos y minimizar los errores, esperamos que las empresas puedan operar de manera más respetuosa con el medio ambiente, disminuyendo su huella ecológica.</li>
-                    
-                    <li><strong>Facilitar la integración con otros sistemas de manufactura automatizada</strong><br>
-                    Nuestro sistema está diseñado para ser compatible con otras soluciones de automatización, permitiendo su integración en líneas de producción más amplias. Con esto, buscamos que las empresas puedan adoptar un enfoque holístico en sus operaciones, impulsando una manufactura más eficiente e interconectada.</li>
+                    <li>Diseñar e implementar un sistema automatizado interactivo que permita la organización y clasificación de componentes electrónicos, con fines didácticos para el aprendizaje de robótica y automatización en contextos escolares.</li>
+                    <li>Fomentar el aprendizaje práctico y significativo de la robótica, la electrónica y la programación en estudiantes de nivel básico y medio superior, a través del uso de tecnologías reales en un entorno seguro, accesible y escalable.</li>
                 </ol>
-                <p>En conjunto, esperamos que este proyecto no solo resuelva problemas operativos específicos, sino que también aporte un valor estratégico y tecnológico significativo a la industria.</p>
+                
+                <h4>Objetivos Específicos</h4>
+                <ol>
+                    <li>Reducir el tiempo y la complejidad del aprendizaje técnico facilitando la comprensión de conceptos de electrónica, sensores, visión artificial y robótica mediante una experiencia práctica e interactiva.</li>
+                    <li>Incrementar el interés de los estudiantes por las áreas STEM utilizando un sistema automatizado atractivo y funcional que despierte la curiosidad, el pensamiento crítico y el deseo de explorar la ciencia y la tecnología.</li>
+                    <li>Desarrollar habilidades tecnológicas desde edades tempranas promoviendo competencias como la lógica computacional, la resolución de problemas, el trabajo colaborativo y el diseño de soluciones automatizadas.</li>
+                    <li>Proporcionar una herramienta educativa accesible y segura creando un sistema adaptable a diferentes entornos escolares (urbanos, rurales o comunitarios), que pueda ser usado sin riesgo por niños y jóvenes.</li>
+                    <li>Integrar el sistema a una plataforma de desarrollo y cursos digitales complementando la experiencia con materiales didácticos, simuladores, retos gamificados y contenidos audiovisuales alineados a los aprendizajes esperados.</li>
+                    <li>Democratizar el acceso a la educación tecnológica promoviendo la equidad educativa al brindar acceso a tecnologías avanzadas en escuelas públicas, centros comunitarios y espacios alternativos de aprendizaje.</li>
+                    <li>Impulsar la sostenibilidad educativa desarrollando un sistema duradero, fácil de mantener y que pueda actualizarse con nuevos contenidos o adaptarse a otros proyectos escolares.</li>
+                </ol>
             </div>
             
-            <!-- Estado del arte Section -->
-            <div class="content-section">
-                <h2>Estado del arte</h2>
-                <div class="video-container">
-                    <div class="video-item">
-                        <strong>Clasificador de residuos Automatizado</strong><br>
-                        <a href="https://youtu.be/JkNI-2Ma8FY?si=LBSs2Rftveiv-j40" target="_blank">https://youtu.be/JkNI-2Ma8FY?si=LBSs2Rftveiv-j40</a>
-                    </div>
-                    <div class="video-item">
-                        <strong>Sensor de colores(1)</strong><br>
-                        <a href="https://youtu.be/7S2C_xptemw?si=5lU2df12mTKk2p6H" target="_blank">https://youtu.be/7S2C_xptemw?si=5lU2df12mTKk2p6H</a>
-                    </div>
-                    <div class="video-item">
-                        <strong>Clasificación automática</strong><br>
-                        <a href="https://www.logisticaprofesional.com/texto-diario/mostrar/2973674/clasificacion-automatica-grandes-beneficios-sector" target="_blank">https://www.logisticaprofesional.com/texto-diario/mostrar/2973674/clasificacion-automatica-grandes-beneficios-sector</a>
-                    </div>
-                    <div class="video-item">
-                        <strong>Sistema Automático de Clasificación de Basura</strong><br>
-                        <a href="https://youtu.be/7YuSSWla9WI?si=6zxXgiPRsdsXlG-1" target="_blank">https://youtu.be/7YuSSWla9WI?si=6zxXgiPRsdsXlG-1</a>
-                    </div>
-                    <div class="video-item">
-                        <strong>Clasificación automática de frutas y hortalizas con visión artificial</strong><br>
-                        <a href="https://youtu.be/Lb4M8AK3_00?si=jvf-gWJWufOeFJbM" target="_blank">https://youtu.be/Lb4M8AK3_00?si=jvf-gWJWufOeFJbM</a>
-                    </div>
+            <!-- Metas a corto y largo plazo Section -->
+            <div class="content-section animated-section" style="animation-delay: 1.2s;">
+                <h2>Metas a corto y largo plazo</h2>
+                <ol>
+                    <li>Desarrollar un prototipo funcional del sistema organizador automatizado creando un sistema operativo que utilice sensores, visión artificial y un brazo robótico capaz de clasificar componentes electrónicos de forma autónoma y didáctica.</li>
+                    <li>Diseñar una interfaz amigable para estudiantes y docentes implementando un entorno físico y digital que permita la interacción segura con el sistema, fomentando la exploración y el aprendizaje autónomo.</li>
+                    <li>Integrar una plataforma educativa con al menos 3 niveles de contenido incluyendo cursos digitales interactivos que aborden desde los fundamentos de la electrónica hasta la programación básica del sistema robótico.</li>
+                    <li>Aplicar el sistema en al menos 2 contextos educativos piloto probando el proyecto en escuelas o centros educativos con diferente acceso a recursos tecnológicos, evaluando su impacto en el aprendizaje y la motivación estudiantil.</li>
+                    <li>Capacitar a docentes y facilitadores para el uso del sistema creando materiales de formación y sesiones de acompañamiento para que los educadores puedan implementar el proyecto de forma efectiva en el aula.</li>
+                    <li>Fomentar la participación activa de al menos 100 estudiantes en la etapa inicial involucrando a niños y jóvenes en actividades prácticas con el sistema para generar interés, retroalimentación y desarrollo de habilidades STEM.</li>
+                    <li>Reducir al menos un 50% los errores comunes en la identificación de componentes midiendo el desempeño del sistema automatizado en comparación con la organización manual, demostrando su eficacia en entornos educativos.</li>
+                    <li>Distribuir el paquete educativo completo con el respaldo de EmilioColor México consolidando el sistema, la plataforma de cursos y los materiales complementarios en un kit accesible para instituciones educativas públicas y privadas.</li>
+                </ol>
+            </div>
+            
+            <!-- Referencias Audiovisuales y Digitales Section -->
+            <div class="content-section animated-section" style="animation-delay: 1.3s;">
+                <h2>Referencias Audiovisuales y Digitales sobre Sistemas de Clasificación Automatizada</h2>
+                <div class="video-item">
+                    <strong>Clasificador de Residuos Automatizado</strong><br>
+                    <a href="https://youtu.be/JkNI-2Ma8FY?si=LBSs2Rftveiv-j40" class="nested-button-1">Ver video en YouTube</a>
+                    <p>Un sistema automatizado que clasifica diferentes tipos de residuos, útil como referencia para el diseño mecánico y el uso de sensores en clasificación física.</p>
+                </div>
+                <div class="video-item">
+                    <strong>Sensor de Colores (1)</strong><br>
+                    <a href="https://youtu.be/7S2C_xptemw?si=5lU2df12mTKk2p6H" class="nested-button-1">Ver video en YouTube</a>
+                    <p>Demostración del uso de sensores de color, aplicables en sistemas de identificación de objetos o materiales mediante visión artificial.</p>
+                </div>
+                <div class="video-item">
+                    <strong>Clasificación Automática: Grandes beneficios para el sector</strong><br>
+                    <a href="https://www.logisticaprofesional.com/texto-diario/mostrar/2973674/clasificacion-automatica-grandes-beneficios-sector" class="nested-button-1">Leer artículo en Logística Profesional</a>
+                    <p>Artículo que expone las ventajas de los sistemas de clasificación automática en entornos industriales y logísticos.</p>
+                </div>
+                <div class="video-item">
+                    <strong>Sistema Automático de Clasificación de Basura</strong><br>
+                    <a href="https://youtu.be/7YuSSWla9WI?si=6zxXgiPRsdsXlG-1" class="nested-button-1">Ver video en YouTube</a>
+                    <p>Proyecto de reciclaje con sensores y clasificación automática de residuos, enfocado en la sostenibilidad y educación ambiental.</p>
+                </div>
+                <div class="video-item">
+                    <strong>Clasificación Automática de Frutas y Hortalizas con Visión Artificial</strong><br>
+                    <a href="https://youtu.be/Lb4M8AK3_00?si=jvf-gWJWufOeFJbM" class="nested-button-1">Ver video en YouTube</a>
+                    <p>Ejemplo del uso de visión artificial para clasificar productos agrícolas, útil para comprender la aplicación de tecnologías avanzadas en sectores productivos.</p>
                 </div>
             </div>
             
+            <!-- Bibliografia Section -->
+            <div class="content-section animated-section" style="animation-delay: 1.5s;">
+                <h2>Bibliografia</h2>
+<ol>
+    <li>
+        Lucas, P. (2024). <i>Brazo robótico y banda transportadora: Detección de plásticos y metales para reciclaje utilizando sensor inductivo</i>. GitHub.
+        <a href="https://github.com/LucasPifo/Brazo-robotico-y-banda-transportadora" class="nested-button-1" target="_blank">Abrir enlace</a>
+    </li>
+    <li>
+        Unidad Central del Valle del Cauca. (2020). <i>Diseño e implementación de una banda transportadora automatizada móvil y graduable para el transporte de un producto en proceso en el prototipo de planta de manufactura flexible</i> [Trabajo de grado, Unidad Central del Valle del Cauca]. Repositorio UCEVA.
+        <a href="http://repositorio.uceva.edu.co/handle/20.500.12993/1880" class="nested-button-1" target="_blank">Abrir enlace</a>
+    </li>
+    <li>
+        Universidad Politécnica de Valencia. (2019). <i>Diseño y construcción de un brazo robótico controlado mediante Arduino</i> [Trabajo de fin de grado, Universidad Politécnica de Valencia]. RIUNET.
+        <a href="https://riunet.upv.es/handle/10251/125528" class="nested-button-1" target="_blank">Abrir enlace</a>
+    </li>
+    <li>
+        Woo, Y., Lim, H., Yang, H., & Yoon, H. (2021). <i>Artificial intelligence-based robots in education: A systematic review</i>. Science of Education, 1, 100004.
+        <a href="https://www.sciencedirect.com/science/article/pii/S2666920X22000467" class="nested-button-1" target="_blank">Abrir enlace</a>
+    </li>
+    <li>
+        IBM. (2021, 27 de julio). <i>¿Qué es la visión artificial?</i> IBM Think España.
+        <a href="https://www.ibm.com/es-es/think/topics/computer-vision" class="nested-button-1" target="_blank">Abrir enlace</a>
+    </li>
+    <li>
+        Jiménez Andreu, R. (2017). <i>Sistema de visión coordinado con un brazo robótico para pick & place en cinta transportadora</i> [Trabajo de fin de grado, Universidad Politécnica de Cartagena]. Repositorio UPCT.
+        <a href="https://repositorio.upct.es/bitstreams/4ba68776-adcd-4625-a231-db79f6ecdf6e/download" class="nested-button-1" target="_blank">Abrir enlace</a>
+    </li>
+    <li>
+        Díaz García, L. (2018). <i>Integración de visión artificial en un robot industrial: Clasificación de piezas LEGO por tamaño y color</i> [Trabajo de fin de grado, Universidad Pontificia Comillas]. Repositorio Comillas.
+        <a href="https://repositorio.comillas.edu/jspui/bitstream/11531/22556/1/TFG-DiazGarciaLucia.pdf" class="nested-button-1" target="_blank">Abrir enlace</a>
+    </li>
+    <li>
+        Cantos Párraga, D. I., & Guerrero Flores De Valgaz, G. E. (2024). <i>Desarrollo de un módulo educativo para la clasificación de objetos utilizando un brazo robótico y visión artificial</i> [Tesis de grado, Universidad Politécnica Salesiana]. Repositorio UPS.
+        <a href="https://dspace.ups.edu.ec/bitstream/123456789/28136/1/UPS-GT005515.pdf" class="nested-button-1" target="_blank">Abrir enlace</a>
+    </li>
+</ol>
+
+            </div>
+            
             <!-- Evidence Section -->
-            <div class="content-section evidence-section">
+            <div class="content-section evidence-section animated-section" style="animation-delay: 1.6s;">
                 <h2>Evidencias del Proyecto</h2>
                 <div class="evidence-grid">
                     <div class="evidence-item">
@@ -364,17 +479,13 @@
                         <a href="https://docs.google.com/document/d/1n5TeKqYKvxpgs1pEDpWOHJgIU14zitR1/edit?usp=sharing&ouid=104544876122891177035&rtpof=true&sd=true" class="nested-button">Ampliar</a>
                     </div>
                     <div class="evidence-item">
-                        <h4>DOC4 CRONOGRAMA DEL PROYECTO</h4>
-                        <p>Información sobre la organización de las actividades del proyecto.</p>
-                        <a href="https://docs.google.com/spreadsheets/d/1SIJT9hNAZjiP6c4N19DD7uJzockTllNCzc4vwBDk69Q/edit?usp=sharing" class="nested-button">Ampliar</a>
-                    </div>
-                    <div class="evidence-item">
-                        <h4>DOC5 MATERIALES Y DISEÑO TENTATIVO DEL PROYECTO</h4>
+                        <h4>DOC4 MATERIALES Y DISEÑO TENTATIVO DEL PROYECTO</h4>
                         <p>Información sobre el posible costo de materiales y distribucion de los elementos electronicos en el diseño preeliminar.</p>
                         <a href="https://docs.google.com/document/d/1mKQSymmu21NonBEfoeMt3MVlr9ntMf0wesHRtNwacsU/edit?usp=sharing" class="nested-button">Ampliar</a>
                     </div>
                     <div class="evidence-item">
                         <h4>IMAGENES DEL PROYECTO</h4>
+                        <p>Galería de imágenes del desarrollo del proyecto.</p>
                         <a href="https://drive.google.com/drive/folders/1GDNydTpJsqGZnT6JoTrMwzZrlkMsy1Yb?usp=sharing" class="nested-button">Ampliar</a>
                     </div>
                 </div>
@@ -382,7 +493,7 @@
         </div>
     </main>
     
-    <!-- Footer matching 33KB version -->
+    <!-- Footer -->
     <div class="footer-logo-section">
         <div class="container">
             <div class="row">
@@ -393,7 +504,13 @@
                 
                 <!-- Columna 2: Mensaje -->
                 <div class="col-md-3 footer-column footer-divider">
-<p class="footer-message" style="font-style: italic;">"Transformando vidas a través del color"</p>
+                    <p class="footer-message">"Transformando vidas a través del color"</p>
+                    <div class="mt-3">
+                        <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon-footer"><i class="fab fa-facebook"></i></a>
+                        <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon-footer"><i class="fab fa-twitter"></i></a>
+                        <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon-footer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://emiliocolor.github.io/page_not_found/" class="social-icon-footer"><i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
                 
                 <!-- Columna 3: Dirección -->
@@ -408,8 +525,8 @@
                 
                 <!-- Columna 4: Avisos legales -->
                 <div class="col-md-3 footer-column">
-                    <a href="#" class="footer-legal">Aviso de privacidad</a>
-                    <a href="#" class="footer-legal">Términos y condiciones</a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="footer-legal">Aviso de privacidad</a>
+                    <a href="https://emiliocolor.github.io/page_not_found/" class="footer-legal">Términos y condiciones</a>
                     <p class="text-dark mt-3">© 2023 EmilioColor®</p>
                 </div>
             </div>
